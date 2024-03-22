@@ -1,0 +1,292 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Tai Nghe Kiểm Âm Semi-Open AKG K240 MKII, Headphone Studio",
+      "productCode": "Semi-Open AKG K240 MKII.",
+      "releaseDate": "March 18, 2016",
+      "description": "Những chiếc tai nghe kiểm âm hiện nay xuất hiện khá phổ biến, từ phòng thu âm chuyên nghiệp cũng như tại nhà. Tai nghe kiểm âm không chỉ dùng cho phòng thu mà còn được sử dụng để phục vụ cho nhu cầu thưởng thức âm nhạc của nhiều người. Bằng việc sử dụng tai nghe kiểm âm, bạn sẽ có được nguồn âm thanh chất lượng theo như mong muốn của mình.",
+      "price": 330000,
+      "starRating": 4.2,
+      "imageUrl": "./assets/images/11.webp",
+      "trademark": "AKG",
+      "type": "A"
+    },
+    {
+      "id": "5",
+      "productName": "Tai nghe KZ X HBB DQ6S có Micro kèm Tai nghe nhét tai",
+      "productCode": "KZ X HBB DQ6S",
+      "releaseDate": "May 21, 2016",
+      "description": "Nếu các dòng tai nghe phổ thông chiếm quá nhiều diện tích trên màn hình livestream của bạn, hãy thử chuyển qua dòng tai nghe In-Ear chuyên dụng với model KZ x HBB DQ6S đẳng cấp đang được PUStudio phân phối chính hãng với mức giá cạnh tranh cùng nhiều ưu đãi hấp dẫn.",
+      "price": 740000,
+      "starRating": 4.8,
+      "imageUrl": "./assets/images/21.webp",
+      "trademark": "KZ",
+      "type": "B"
+    },
+    {
+      "id": "8",
+      "productName": "Tai nghe KZ EDA có Mic chính hãng - tai nghe nhét tai livestream",
+      "productCode": "KZ EDA",
+      "releaseDate": "May 15, 2016",
+      "description": "Tai nghe là một trong những thiết bị âm thanh không thể thiếu đối với các tín đồ yêu nhạc. Việc sử dụng tai nghe tốt sẽ giúp bạn cảm nhận được âm thanh sống động, chân thực và chi tiết hơn từ các bản nhạc yêu thích của mình. Trong số đó, Tai nghe KZ EDA có Mic chính hãng là một sản phẩm được nhiều người tin dùng nhờ vào chất lượng âm thanh tốt cũng như thiết kế hiện đại và sang trọng.",
+      "price": 850000,
+      "starRating": 4,
+      "imageUrl": "./assets/images/22.webp",
+      "trademark": "KZ",
+      "type": "B"
+    },
+    {
+      "id": "10",
+      "productName": "Tai nghe CCA CRA chính hãng - tai nghe nhét tai livestream",
+      "productCode": "CCA CRA",
+      "releaseDate": "October 15, 2015",
+      "description": "Bạn muốn sở hữu một mẫu tai nghe iDol thời thượng với chi phí phải chăng? Tai nghe nhét tai CCA-CRA sẽ là lựa chọn không thể hoàn hảo hơn lúc này. Tại sao lại vậy?",
+      "price": 395000,
+      "starRating": 4.6,
+      "imageUrl": "./assets/images/31.webp",
+      "trademark": "CCA",
+      "type": "C"
+    },
+    {
+      "id": "11",
+      "productName": "Tai nghe CCA CA4 có Mic chính hãng - tai nghe nhét tai livestream",
+      "productCode": "CCA CA4",
+      "releaseDate": "October 15, 2015",
+      "description": "Tai nghe CCA CA4 hẳn không còn là sản phẩm xa lạ đối với nhiều tín đồ đam mê công nghệ. Thiết bị được tích hợp nhiều chức năng hiện đại cùng thiết kế đẹp, sang trọng, thu hút khách hàng ngay từ ánh nhìn đầu tiên.",
+      "price": 490000,
+      "starRating": 4.8,
+      "imageUrl": "./assets/images/33.jpg",
+      "trademark": "CCA",
+      "type": "C"
+    },
+    {
+      "id": "12",
+      "productName": "Tai nghe CCA CRA chính hãng - tai nghe nhét tai livestream",
+      "productCode": "CCA CRA",
+      "releaseDate": "October 15, 2015",
+      "description": "Bạn muốn sở hữu một mẫu tai nghe iDol thời thượng với chi phí phải chăng? Tai nghe nhét tai CCA-CRA sẽ là lựa chọn không thể hoàn hảo hơn lúc này. Tại sao lại vậy?",
+      "price": 395000,
+      "starRating": 4.6,
+      "imageUrl": "./assets/images/31.webp",
+      "trademark": "CCA",
+      "type": "C"
+    },
+    {
+      "id": "13",
+      "productName": "Tai nghe kiểm âm Takstar HD6000, Headphone Studio",
+      "productCode": "Takstar HD6000",
+      "releaseDate": "October 15, 2015",
+      "description": "Bạn muốn sở hữu một mẫu tai nghe iDol thời thượng với chi phí phải chăng? Tai nghe nhét tai CCA-CRA sẽ là lựa chọn không thể hoàn hảo hơn lúc này. Tại sao lại vậy?",
+      "price": 1350000,
+      "starRating": 4.4,
+      "imageUrl": "./assets/images/41.webp",
+      "trademark": "Takstar",
+      "type": "D"
+    },
+    {
+      "id": "14",
+      "productName": "Tai nghe TRN V90 không Mic chính hãng - tai nghe nhét tai livestream",
+      "productCode": "TRN V90",
+      "releaseDate": "October 15, 2015",
+      "description": "Hiện nay các loại tai nghe không dây, tai nghe nhét tai được khá nhiều người sử dụng vì mức độ thuận tiện mà không cần phải lo vướng dây khi làm việc. Tuy nhiên để tìm kiếm một cặp tai nghe nhét tai có chất lượng âm thanh truyền tới cực ổn định, đảm bảo người dùng nghe rõ trong mọi trường hợp thì không phải dễ dàng. Tai nghe TRN V90 không mic chính hãng là một trong số ít tai nghe nhét tai được các streamer dùng. Cùng tìm hiểu ngay loại tai nghe nhét tai này nhé!",
+      "price": 1050000,
+      "starRating": 4.4,
+      "imageUrl": "./assets/images/51.webp",
+      "trademark": "TRN",
+      "type": "E"
+    },
+    {
+      "id": "15",
+      "productName": "Tai nghe Chụp tai Gaming JBL QUANTUM 600 - tai nghe chụp tai có Mic",
+      "productCode": "JBL QUANTUM 600",
+      "releaseDate": "October 15, 2015",
+      "description": "Đối với mỗi game thủ, việc lựa chọn cho mình một tai nghe gaming phù hợp là một trong những ưu tiên hàng đầu. Chất lượng âm thanh đóng vai trò quan trọng trong trải nghiệm chơi game, với những phút giây reo hò của người chiến thắng hay sự buồn bã của kẻ thua cuộc. Tai nghe chụp tai Gaming JBL QUANTUM 600 không chỉ được dùng để chơi game mà còn được sử dụng trong các hoạt động khác như nghe nhạc, đàm thoại, trò chuyện và phát video.",
+      "price": 3790000,
+      "starRating": 4.8,
+      "imageUrl": "./assets/images/61.webp",
+      "trademark": "JBL",
+      "type": "B"
+    },
+    {
+      "id": "16",
+      "productName": "Tai nghe iPhone 6, tai nghe iPhone 6 Plus - chính hãng Apple giá rẻ",
+      "productCode": "iPhone 6",
+      "releaseDate": "October 15, 2015",
+      "description": "Đối với mỗi game thủ, việc lựa chọn cho mình một tai nghe gaming phù hợp là một trong những ưu tiên hàng đầu. Chất lượng âm thanh đóng vai trò quan trọng trong trải nghiệm chơi game, với những phút giây reo hò của người chiến thắng hay sự buồn bã của kẻ thua cuộc. Tai nghe chụp tai Gaming JBL QUANTUM 600 không chỉ được dùng để chơi game mà còn được sử dụng trong các hoạt động khác như nghe nhạc, đàm thoại, trò chuyện và phát video.",
+      "price": 270000,
+      "starRating": 4.3,
+      "imageUrl": "./assets/images/71.webp",
+      "trademark": "Apple",
+      "type": "C"
+    },
+    {
+      "id": "17",
+      "productName": "Tai nghe không dây ISK WH10 - Tai nghe kiểm âm chính hãng",
+      "productCode": "ISK WH10",
+      "releaseDate": "October 15, 2015",
+      "description": "ISK WH10 cho chất âm sáng rõ, thiết kế bao quanh cổ chắc chắn, kết nối không dây wireless tiện lợi với khoảng cách lên tới 10m, pin sạc 400mAh cho thời gian sử dụng 5 giờ liên tục,... Tới ngay PUStudio để nhận tư vấn và trải nghiệm thực tế.",
+      "price": 1250000,
+      "starRating": 4.5,
+      "imageUrl": "./assets/images/81.webp",
+      "trademark": "ISK",
+      "type": "A"
+    },
+    {
+      "id": "18",
+      "productName": "Tai nghe chụp tai Bluetooth AKG Y50BT, Tai nghe Bluetooth AKG",
+      "productCode": "AKG Y50BT",
+      "releaseDate": "October 15, 2015",
+      "description": "AKG cho ra mắt đa dạng những dòng tai nghe chụp tai nhưng nếu phải chọn ra những dòng tai nghe nổi bật nhất của AKG thì trong đó nhất định phải nói đến Y50BT. Bài viết ngày hôm nay sẽ giúp các bạn độc giả tìm hiểu về sức hút của mẫu tai nghe chụp tai bluetooth này và gợi ý cho độc giả địa chỉ mua hàng uy tín, có thể tin tưởng mua sắm.",
+      "price": 1250000,
+      "starRating": 4.5,
+      "imageUrl": "./assets/images/91.webp",
+      "trademark": "AKG",
+      "type": "E"
+    },
+    {
+      "id": "19",
+      "productName": "Tai nghe CCA C10 không Mic chính hãng, tai nghe nhét tai livestream",
+      "productCode": "CCA C10",
+      "releaseDate": "October 15, 2015",
+      "description": "AKG cho ra mắt đa dạng những dòng tai nghe chụp tai nhưng nếu phải chọn ra những dòng tai nghe nổi bật nhất của AKG thì trong đó nhất định phải nói đến Y50BT. Bài viết ngày hôm nay sẽ giúp các bạn độc giả tìm hiểu về sức hút của mẫu tai nghe chụp tai bluetooth này và gợi ý cho độc giả địa chỉ mua hàng uy tín, có thể tin tưởng mua sắm.",
+      "price": 850000,
+      "starRating": 4.6,
+      "imageUrl": "./assets/images/1.webp",
+      "trademark": "CCA",
+      "type": "C"
+    },
+    {
+      "id": "20",
+      "productName": "Tai nghe Chụp tai Gaming JBL QUANTUM ONE - tai nghe chụp tai có Mic",
+      "productCode": "JBL QUANTUM ONE",
+      "releaseDate": "October 15, 2015",
+      "description": "Đã không còn quá xa lạ với những mẫu tai nghe chụp tai gaming có mic như hiện nay, tuy nhiên JBL QUANTUM ONE vẫn luôn là một thiết bị dẫn đầu và được nhiều người đón nhận. Với thiết kế hiện đại và những tính năng vượt trội, JBL QUANTUM ONE đem chất âm hoàn hảo, sống động, nhờ đó người nghe sẽ một trải nghiệm âm thanh chân thực hơn bao giờ hết dù sử dụng trong mục đích và nhu cầu gì.",
+      "price": 850000,
+      "starRating": 4.6,
+      "imageUrl": "./assets/images/2.webp",
+      "trademark": "JBL",
+      "type": "D"
+    },
+    {
+      "id": "21",
+      "productName": "Tai nghe CCA LYRA có Micro chính hãng - tai nghe nhét tai livestream",
+      "productCode": "CCA LYRA",
+      "releaseDate": "October 15, 2015",
+      "description": "Đã không còn quá xa lạ với những mẫu tai nghe chụp tai gaming có mic như hiện nay, tuy nhiên JBL QUANTUM ONE vẫn luôn là một thiết bị dẫn đầu và được nhiều người đón nhận. Với thiết kế hiện đại và những tính năng vượt trội, JBL QUANTUM ONE đem chất âm hoàn hảo, sống động, nhờ đó người nghe sẽ một trải nghiệm âm thanh chân thực hơn bao giờ hết dù sử dụng trong mục đích và nhu cầu gì.",
+      "price": 600000,
+      "starRating": 4,
+      "imageUrl": "./assets/images/3.webp",
+      "trademark": "CCA",
+      "type": "C"
+    },
+    {
+      "id": "22",
+      "productName": "Tai nghe nhét tai JBL C150 SIU - tai nghe thể thao nhét tai JBL",
+      "productCode": "JBL C150 SIU",
+      "releaseDate": "2024-03-09",
+      "price": 250000,
+      "description": "JBL C150 SIU là mẫu tai nghe nhét tai có dây điển hình với thiết kế trẻ trung nhỏ gọn, phù hợp đa dạng mục đích sử dụng. Mẫu tai nghe in-ear của thương hiệu Mỹ mang tới trải nghiệm âm thanh mới mẻ, chân thực cho toàn dải, bổ sung thêm 3 kích thước nút đệm tai cho bạn cảm giác êm ái và chống ồn hiệu quả khi sử dụng.",
+      "starRating": 5,
+      "imageUrl": "./assets/images/6_tai-nghe-nhet-tai-jbl-c150-siu_f36f608644e44c7aab2c0df0029e4901_large.webp",
+      "trademark": "JBL",
+      "type": "C"
+    },
+    {
+      "productName": "Tai nghe Takstar HD6000, Headphone Studio",
+      "productCode": "Takstar HD6000",
+      "releaseDate": "2024-03-09",
+      "price": 1350000,
+      "description": "Tai nghe kiểm âm là loại tai nghe có chức năng giúp người dùng nghe ra từng nhịp, từng phách của một bản thu sao cho chi tiết nhất. Để làm được chức năng này, khả năng hoạt động của tai nghe kiểm âm phải vô cùng mạnh mẽ và được sản xuất bằng những công nghệ tiên tiến, hiện đại.",
+      "starRating": 5,
+      "imageUrl": "./assets/images/tn100.webp",
+      "trademark": "Takstar ",
+      "type": "B",
+      "id": "87cd"
+    },
+    {
+      "id": "25",
+      "productName": "Tai nghe Gaming cao cấp Audio-Technica ATH-AG1X - tai nghe có Mic",
+      "productCode": "Audio-Technica ATH-AG1X",
+      "releaseDate": "2024-03-09",
+      "price": 7490000,
+      "description": "Tai nghe gaming cao cấp Audio-Technica ATH-AG1X sở hữu thiết kế đột phá với drivers lớn (53mm), hệ thống cánh đệm đầu 3D mới lạ,... đem đến trải nghiệm âm thanh sống động và thoải mái nhất khi sử dụng. Sản phẩm đang được PUStudio nhập khẩu và phân phối chính hãng với nhiều ưu đãi hấp dẫn.",
+      "starRating": 5,
+      "imageUrl": "./assets/images/tn101.webp",
+      "trademark": "Audio-Technica",
+      "type": "D"
+    },
+    {
+      "productName": "Tai nghe Gaming cao cấp Audio-technica ATH-G1WL - Kết nối không dây",
+      "productCode": "ATH-G1WL",
+      "releaseDate": "2024-03-09",
+      "price": 7100000,
+      "description": "Nếu đang cần tìm một dòng tai nghe Gaming cao cấp, cho phép bạn tham gia các tựa game nhập vai cả ngày không sợ mỏi hay ù tai, model ATH-G1WL tới từ Audio-Technica Nhật Bản sẽ là lựa chọn không thể bỏ qua. Kết nối không dây giúp hệ thống của bạn trở nên gọn gàng hơn rất nhiều.",
+      "starRating": 5,
+      "imageUrl": "./assets/images/tn102.webp",
+      "trademark": "ATH",
+      "type": "D",
+      "id": "23"
+    },
+    {
+      "productName": "Tai nghe  Takstar HD2000, Headphone Studio",
+      "productCode": "HD2000",
+      "releaseDate": "2024-03-11",
+      "price": 520000,
+      "description": "Các tai nghe thông thường giá thường khá rẻ. Tuy nhiên, đôi khi không phù hợp cho nhu cầu kiểm âm vì khả năng ngăn chặn tiếng ồn khá kém. Trước tình hình đó Takstar cho ra đời mẫu tai nghe kiểm âm giá rẻ mang tên Takstar HD2000 rất phù hợp cho nhu cầu thu âm tại nhà.",
+      "starRating": 5,
+      "imageUrl": "./assets/images/1526692514000_9c0802b27a6a48e182f96fbf111dffb7_large.webp",
+      "trademark": "Takstar",
+      "type": "B",
+      "id": "2438"
+    },
+    {
+      "productName": "111111111111",
+      "productCode": "dsfsdf",
+      "releaseDate": "2024-03-12",
+      "price": 1345354,
+      "description": "dsfsdfsdg",
+      "starRating": 5,
+      "imageUrl": "./assets/images/egore911-saw.png",
+      "trademark": "JBL",
+      "type": "D",
+      "id": "0272"
+    }
+  ],
+  "users": [
+    {
+      "username": "Admin",
+      "email": "vinhdat998@gmail.com",
+      "password": "12345678",
+      "role": 0,
+      "id": "d503"
+    },
+    {
+      "id": "2b89",
+      "email": "thanhduoc5704@gmail.com",
+      "password": "12345678",
+      "comfirm_password": "12345678"
+    },
+    {
+      "id": "af8b",
+      "username": "Dat",
+      "email": "vinhdat5704@gmail.com",
+      "password": "12345678",
+      "comfirm_password": "12345678"
+    },
+    {
+      "id": "db4d",
+      "username": "",
+      "email": "",
+      "password": "",
+      "comfirm_password": ""
+    },
+    {
+      "id": "62db",
+      "username": "ddddddd",
+      "email": "vinhdat20201220@gmail.com",
+      "password": "12345678",
+      "comfirm_password": "12345678"
+    }
+  ]
+}

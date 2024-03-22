@@ -1,0 +1,24 @@
+<div style="height: 40px; background-color:#c4c2c2; " class="mb-5">
+  <p class="pt-2 pl-4"><a href="" style="text-decoration: none; color: #444;">Trang chủ </a>><a href=""
+      style="text-decoration: none; color: #444;">
+      Tai Nghe DJ, Producer</a>
+  </p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mb-3" *ngFor="let item of typeBProducts">
+      <div class="card-deck">
+        <div class="card sp">
+          <img class="card-img-top p-3" src="{{item.imageUrl}}" width="100%" height="250px" alt="">
+          <div class="card-body text-justify">
+            <p class="card-title" style="height: 70px;">{{item.productName}}</p>
+            <h6 class="card-text" style="color: red;"><b>{{item.price| currency:"VND"}}</b></h6>
+            <a class="nav-item active"><a class="nav-link" routerLink="/cart/{{item.id}}"><button type="button"
+                  class="btn btn-sm offset-3" style="background-color: #212529;color: #fff;">View
+                  Details</button></a></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

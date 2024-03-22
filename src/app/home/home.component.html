@@ -1,0 +1,19 @@
+<hr>
+<form class="form-inline offset-md-3">
+  <div class="form-group">
+    <input style="width:600px; border-radius: 0px; " type="text" [(ngModel)]="searching"
+      (ngModelChange)="filterResults()" name="searching" id="" class="input form-control" placeholder=""
+      placeholder="Tìm sản phẩm" mall>
+    <button type="button" class="btn btn-primary"
+      style="border-radius: 0px; background-color: #2f2f2f; border: 1px solid #2f2f2f;"><i class="fa fa-search"
+        aria-hidden="true"></i></button>
+  </div>
+</form>
+<hr>
+<div *ngIf="!filterProductList || filterProductList.length === 0" class="m-5">
+  <h2 class="text-center" style="color: #2f2f2f; font-family: Arial, Helvetica, sans-serif;">Không tìm thấy sản
+    phẩm!</h2>
+</div>
+<div *ngIf="filterProductList && filterProductList.length > 0">
+  <app-products [productHome]="filterProductList"></app-products>
+</div>

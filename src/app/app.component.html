@@ -1,0 +1,328 @@
+<div class="container-fluid">
+  <div class="row mb-3" style="margin-top: -30px;">
+    <div class="col-lg-3 col-md-3 col-sm-12 mt-5 text-center">
+      <a routerLink="/"><img src="../../assets/images/Mobile.png" alt="" style="width: 100%; margin-to: -20px;"></a>
+    </div>
+    <div class="col-lg-5 col-md-7 col-sm-12 mt-5 offset-1">
+      <!-- <form class="form-inline">
+        <div class="form-group">
+          <input style="width:600px; border-radius: 0px; " type="text" [(ngModel)]="searching"
+            (ngModelChange)="filterResults()" name="searching" id="" class="input form-control" placeholder=""
+            placeholder="Tìm sản phẩm" mall>
+          <button type="button" class="btn btn-primary"
+            style="border-radius: 0px; background-color: #2f2f2f; border: 1px solid #2f2f2f;"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
+        </div>
+      </form> -->
+      <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselId" data-slide-to="1"></li>
+          <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class=" carousel-item active">
+            <img src="../../assets/images/banner1.png" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/images/banner2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/images/banner3.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-2 col-sm-12 text-lg-right text-md-center text-sm-center"
+      style="margin-top: 70px; margin-left: -80px;">
+      <ng-container *ngIf="!isAuthenticated()">
+        <a routerLink="/login"><button type="button" class="btn btn-outline-primary" style="width: 120px;">Login <i
+              class="fa fa-user-circle" aria-hidden="true"></i></button></a>
+        <a routerLink="/register"><button type="button" class="btn btn-outline-warning" style="width: 120px;">Register
+            <i class="fa fa-key" aria-hidden="true"></i></button></a>
+      </ng-container>
+      <ng-container *ngIf="isAuthenticated()">
+        <form class="form-inline" style="margin-left: 150px;">
+          <div class="form-group">
+            <tr>
+              <th>
+                <h6 *ngIf="isAdmin()">Xin chào Admin!</h6>
+                <h6 *ngIf="!isAdmin()">Xin chào!</h6>
+              </th>
+              <th>
+                <a (click)="logout()" routerLink=" /Logout"><button type="button" class="btn btn-sm btn-outline-warning"
+                    style="width: 100px;">Logout <i class="fas fa-door-open    "></i></button></a>
+              </th>
+            </tr>
+          </div>
+        </form>
+      </ng-container>
+      <ng-container *ngIf="isAdmin()" class="m-5">
+        <a href="" routerLink="/products-list" class="mt-5 mr-5" style="color: green;">Quản lý sản phẩm</a>
+      </ng-container>
+      <br>
+      <a routerLink="/cart/1" style="text-decoration: none;color: #2f2f2f;"><i class="fas fa-shopping-cart mt-5"
+          aria-hidden="true" style="font-size: 40px; margin-right: 80px;"></i></a>
+    </div>
+  </div>
+  <div class="row">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="width: 100%; background-color: #2f2f2f; ">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+          <li class="nav-item dropdown ml-5">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Danh mục sản phẩm</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId" style="width: 300px;">
+              <a class="dropdown-item" routerLink="/th1Products">Tai nghe AKG</a>
+              <a class="dropdown-item" routerLink="/th2Products">Tai nghe KZ</a>
+              <a class="dropdown-item" routerLink="/th3Products">Tai nghe CCA</a>
+              <a class="dropdown-item" routerLink="/th4Products">Tai nghe Takstar</a>
+              <a class="dropdown-item" routerLink="/th5Products">Tai nghe TRN</a>
+              <a class="dropdown-item" routerLink="/th6Products">Tai nghe JBL</a>
+              <a class="dropdown-item" routerLink="/th7Products">Tai nghe Apple</a>
+              <a class="dropdown-item" routerLink="/th8Products">Tai nghe ISK</a>
+            </div>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#">Khuyến Mãi <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#">Thương Hiệu <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/menu">Tư Vấn Mua Hàng <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/menu">Trả Góp 0% <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/menu">Dịch Vụ Cài Đặt <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/menu">Hướng Dẫn Mua Hàng <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/menu">Hướng Dẫn Thanh Toán <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item active ml-4">
+            <a class="nav-link menu1" href="#" routerLink="/products-list">DSSP <span
+                class="sr-only">(current)</span></a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th1Products">
+          <img src="../../assets/images/akg.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th2Products">
+          <img src="../../assets/images/th2.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th3Products">
+          <img src="../../assets/images/th3.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th4Products">
+          <img src="../../assets/images/th4.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th5Products">
+          <img src="../../assets/images/th5.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th6Products">
+          <img src="../../assets/images/th6.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th7Products">
+          <img src="../../assets/images/th7.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a routerLink="/th8Products">
+          <img src="../../assets/images/th8.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a href="#">
+          <img src="../../assets/images/th10.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a href="#">
+          <img src="../../assets/images/th11.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a href="#">
+          <img src="../../assets/images/th13.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <div style="border: 1px solid #999;" class="th" class="th">
+        <a href="#">
+          <img src="../../assets/images/th9.webp" alt="" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-2" style="margin-left: 150px;">
+      <a routerLink="/typeAproducts" class="menu2">
+        <img src="../../assets/images/m2.webp" alt="" style="width: 60%;">
+        <br>
+        <!-- <a href="" style="text-align: center; font-size: 15px;">Tai nghe kiểm âm</a> -->
+        <p><b>Tai Nghe Kiểm âm</b></p>
+      </a>
+    </div>
+    <div class="col-md-2 ">
+      <a routerLink="/typeBproducts" class="menu2">
+        <img src="../../assets/images/m3.webp" alt="" style="width: 60%;">
+        <br>
+        <!-- <a href="" style="text-align: center; font-size: 15px;">Tai nghe kiểm âm</a> -->
+        <p><b>Tai Nghe DJ, Producer</b></p>
+      </a>
+    </div>
+    <div class="col-md-2 ">
+      <a routerLink="/typeCproducts" class="menu2">
+        <img src="../../assets/images/m4.webp" alt="" style="width: 60%;">
+        <br>
+        <!-- <a href="" style="text-align: center; font-size: 15px;">Tai nghe kiểm âm</a> -->
+        <p><b>Tai Nghe Thể Thao</b></p>
+      </a>
+    </div>
+    <div class="col-md-2 ">
+      <a routerLink="/typeDproducts" class="menu2">
+        <img src="../../assets/images/m5.webp" alt="" style="width: 60%;">
+        <br>
+        <!-- <a href="" style="text-align: center; font-size: 15px;">Tai nghe kiểm âm</a> -->
+        <p><b>Tai Nghe Gaming</b></p>
+      </a>
+    </div>
+    <div class="col-md-2 ">
+      <a routerLink="/typeEproducts" class="menu2">
+        <img src="../../assets/images/m6.webp" alt="" style="width: 60%;">
+        <br>
+        <!-- <a href="" style="text-align: center; font-size: 15px;">Tai nghe kiểm âm</a> -->
+        <p><b>Tai nghe Bluetooth</b></p>
+      </a>
+    </div>
+
+  </div>
+  <router-outlet></router-outlet>
+
+</div>
+<div style="background-color: #2f2f2f;" class="p-5">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="../../assets/images/Mobile.png" alt="" style="width: 300px;">
+    </div>
+    <div class="col-md-3 text-light">
+      <h6>Giới thiệu về Audi Store</h6>
+      <p>"Phương châm của Pustudio là mỗi khách hàng đều thực hiện được giấc mơ âm nhạc của riêng mình."
+        <br>
+        Email: info@pustudio.vn
+      </p>
+    </div>
+    <div class="col-md-3 text-light footer">
+      <h6>Quy chế hoạt động</h6>
+      <p>Chính sách giao hàng</p>
+      <p>Chính sách bảo mật thông tin</p>
+      <p>Chính sách trả góp sản phẩm</p>
+      <p>Chính sách bảo hành & đổi trả</p>
+    </div>
+    <div class="col-md-3 text-light">
+      <h6>Thời gian hỗ trợ kỹ thuật</h6>
+      <p>Thứ 2 - Chủ nhật: 8:30 - 20:30</p>
+      <p>Mở cửa 2 chi nhánh: 8:30 - 19:00</p>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-3 text-light">
+      <h6>Tổng đài</h6>
+      <p>Mua hàng: 0123.456.789 (8:00-19:00)</p>
+      <p>Kỹ thuật 1: 0123.456.789 (8:00-20:00)</p>
+      <p>Kỹ thuật 2: 0123.456.789 (8:00-19:00)</p>
+      <p>CSKH: 0123.456.789 (8:00-21:00)</p>
+    </div>
+    <div class="col-md-3 text-light footer">
+      <h6>Hệ thống cửa hàng</h6>
+      <p>Về chúng tôi</p>
+      <p>Tin tuyển dụng</p>
+      <p>Nội quy của hàng</p>
+      <p>Liên hệ chúng tôi</p>
+    </div>
+    <div class="col-md-3 text-light footer">
+      <h6>Hỗ trợ khách hàng</h6>
+      <p>Hướng dẫn trả góp</p>
+      <p>Hướng dẫn thanh toán</p>
+      <p>Chính sách cửa hàng</p>
+      <p>Chính sách cửa hàng</p>
+    </div>
+    <div class="col-md-3 text-light">
+      <h6>Liên Hệ</h6>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.91030471953!2d106.6152797871582!3d10.774687300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea144839ef1%3A0x798819bdcd0522b0!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIE5naOG7hyBUaMO0bmcgVGluIFRwLkjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1686646633874!5m2!1svi!2s"
+        width="100%" style="border:0;" height="200px" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="text-light mt-5 p-2" style="background-color: #444; text-align: center;">
+    <span>Bản quyền thuộc về <a routerLink="/" style="color: rgb(243, 83, 83);">@AudiStore</a></span>
+    <br>
+    <p>Công ty TNHH BHKNT, Số ĐKKD: 0234667899 cấp ngày 3/3/2024 tại Sở kế hoạch Đầu tư TP Hồ Chí Minh
+    </p>
+  </div>
+</div>
